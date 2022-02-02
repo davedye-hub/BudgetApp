@@ -1,6 +1,7 @@
 class Budget():
-    def __init__(self, balance):
+    def __init__(self, balance, category):
         self.balance = balance
+        self.category = category
     
     def __repr__(self):
         return f"The balance in this budget is £{self.balance}."
